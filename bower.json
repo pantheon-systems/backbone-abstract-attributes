@@ -1,0 +1,30 @@
+{
+  "name": "backbone-abstract-attributes",
+  "version": "0.0.1",
+  "description": "Computed attributes for Backbone Models",
+  "contributors": [
+    {
+      "name" : "Ben Sheldon",
+      "email" : "ben@getpantheon.com"
+    },
+    {
+      "name" : "Jonathan Porta",
+      "email" : "jonathan@getpantheon.com"
+    }
+  ],
+  "main": "src/backbone-abstract-attributes.js",
+  "keywords": [],
+  "dependencies": {
+    "backbone": "~1.1.2"
+  },
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "karma.conf.js",
+    ".gitignore",
+    ".travis.yml",
+    "bower_components",
+    "tests",
+    "lib"
+  ]
+}
