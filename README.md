@@ -35,13 +35,13 @@ Examples
 var Person = Backbone.Model.extend({
   // Add a computed hash to your model
   computed: {
-    # methodName : dependent properties
+    // methodName -> dependent properties
     capitalizedName: 'firstname'
   },
 
-  // name methods the same as the computed hash key
+  // Name methods the same as the computed hash key
   capitalizedName: function() {
-    // add dependent keys as computed hash values
+    // Add dependent keys as computed hash values
     this.get('firstname').toUpperCase()
   }
 });
