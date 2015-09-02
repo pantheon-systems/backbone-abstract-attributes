@@ -10,7 +10,7 @@ Why is this different than other computed attribute plugins?
 
 This plugin tries to have:
  - Simple configuration
- - Allows for of re-use existing accessor methods
+ - Allows for re-use of existing accessor methods
  - Flexibility in dependent attributes (and related models, etc) to trigger change events
  - Doesn't dirty the Model's attributes by `set`ing values. All methods are dynamically `get`ed
 
