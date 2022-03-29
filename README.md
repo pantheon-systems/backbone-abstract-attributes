@@ -2,6 +2,8 @@ backbone-abstract-attributes
 ============================
 
 [![Build Status](https://travis-ci.org/pantheon-systems/backbone-abstract-attributes.svg?branch=master)](https://travis-ci.org/pantheon-systems/backbone-abstract-attributes)
+[![Deprecated](https://img.shields.io/badge/Pantheon-Deprecated-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#deprecated)
+
 
 This Backbone plugin provides an easy way for declaring Model methods as computed properties, enabling them to be called using the standard `get('methodName')` (and `has('methodName')`), as well as flexible ways to declare dependent properties which will trigger `change:methodName` events.
 
